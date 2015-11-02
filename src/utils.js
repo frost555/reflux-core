@@ -20,7 +20,7 @@ export function isObject(obj) {
 var lodashAssign = require('lodash.assign');
 
 export function extend(obj) {
-    return lodashAssign(obj);
+    return lodashAssign(arguments);
 }
 
 export function isFunction(value) {
